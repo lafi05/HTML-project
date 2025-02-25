@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laftify</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(./Music4.jpg);
+            background-size: cover;
+            color: #ffffff;
+        }
+        .sidebar {
+            width: 20%;
+            height: 100vh;
+            background-image: url(./Music5.jpg);
+            background-size: cover;
+            padding: 20px;
+            box-sizing: border-box;
+            position: fixed;
+        }
+        .sidebar h1 {
+            margin: 0;
+            padding: 10px 0;
+        }
+        .main {
+            margin-left: 20%;
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: black;
+
+            position: fixed;
+            width: 80%;
+            box-sizing: border-box;
+        }
+        .content {
+            margin-top: 80px;
+        }
+        .album {
+            display: inline-block;
+            width: 200px;
+            padding: 10px;
+            margin: 10px;
+            background-color: black;
+            text-align: center;
+        }
+        .album img {
+            width: 100%;
+            height: auto;
+        }
+        .album p {
+            margin: 10px 0 0 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <img height="100" width="100" src="logo.jpg">
+        <h1>Laftify</h1>
+        <p>Home</p>
+        <p>Search</p>
+        <p>Liked Songs</p>
+        <p>Your Library</p>
+
+        
+    </div>
+    <div class="main">
+        <div class="header">
+            <img height="50" width="50" src="logo.jpg">
+            <marquee behaviour="stop">
+                <h3>Welcome To Laftify</h3>
+        </marquee>
+
+            
+            
+        </div>
+        <div class="content">
+            <br><br>
+            <div class="album">
+                <img src="Bholenath" alt="Album 1">
+                <p>Bholenath</p>
+                <audio controls>
+                    <source src="https://gaana.com/lyrics/bholenath-26" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="album">
+                <img src="Laagi-Lagan-Shankara.jpg" alt="Album 2">
+                <p>Laagi Lagan Shankara</p>
+                <audio controls>
+                    <source src="Laagi Lagan Shankara | Hansraj Raghuwanshi | Komal Saklani | Holi Special 2021 | Ricky | Jamie |" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="album">
+                <img src="Namo Namo.jpg" alt="Album 3">
+                <p>Namo Namo</p>
+                <audio controls>
+                    <source src="Namo Namo - Lyrical | Kedarnath | Sushant Rajput | Sara Ali Khan | Amit Trivedi | Amitabh B" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="album">
+                <img src="Love Ya.jpg" alt="Album 3">
+                <p>Love Ya</p>
+                <audio controls>
+                    <source src="Diljit Dosanjh: Love Ya (Official Music Video) | Mouni Roy" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="album">
+                <img src="Jaana Samjho Na.jpg" alt="Album 3">
+                <p>Jaana Samjho Na</p>
+                <audio controls>
+                    <source src="BB3: Jaana Samjho Na (Full Video) Kartik Aaryan, Triptii Dimri | Aditya R, Tulsi K, Lijo, DJ Chetas" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="album">
+                <img src="Pal Pal  Dil KE Paas.jpg" alt="Album 3">
+                <p>Pal Pal Dil Ke Paas </p>
+                <audio controls>
+                    <source src="Pal Pal Dil Ke Paas - Title | Arijit Singh | Karan Deol, Sahher | Parampara, Sachet, Rishi Rich" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
